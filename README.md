@@ -87,17 +87,19 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/d2743532-c51e-4f8b-9035-9bd13036ee6e)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0fb3d096-b3b9-4d0d-9d2a-c72cceed2a53)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/837cc36b-dcd5-4657-8475-607f01334ef9)
 
 
 cat < newfile 
