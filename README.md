@@ -148,11 +148,13 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/66cc7a34-d99a-437e-acfb-aa19c9e7ea00)
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c0dc0e06-91c3-4672-8a81-431a63859636)
 
 
 cat < newfile 
