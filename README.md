@@ -55,6 +55,8 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e7eae80d-e1b7-4120-90ea-ce87e77bab83)
+
 
  
 comm file1 file2
