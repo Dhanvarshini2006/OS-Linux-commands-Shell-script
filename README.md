@@ -114,29 +114,33 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d5882c4c-4885-472b-9bf7-818945a4067f)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d251c3af-589d-4333-b799-30feb2825b7d)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/606b8c2b-f067-42e2-91f2-f502c642ef77)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/3c11c53d-0515-4307-9a44-f7460966a607)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/24e8eab7-4ee2-4163-8aff-61d9590535ae)
 
 
 
