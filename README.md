@@ -260,79 +260,95 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c996a628-c124-4632-a2eb-401127c6c63c)
 
 
 
-sed -n -e '$p' file23
+sed -n -e '5p' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/662279ee-0235-4096-b991-17515caf4ef1)
+
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e9abf882-4497-4602-a70f-6160e5f62239)
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/eec8f808-a947-4f04-a6a8-118a4c84da5c)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/94a89200-32ed-4ded-942e-003b2069ec47)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/3d6fed4b-b35e-4532-a4bb-5fa83967e8f7)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/40bcbcff-174b-4473-ab1a-d0e145a9a3a2)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/f1456cad-4bbc-4f3d-9b81-3261ac8fa86d)
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/f6e96870-5d21-49c0-ac01-5eb1780f68fe)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/8553f94b-aeb3-4233-ab84-8c2922b362cd)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/c5e9c07c-ffa3-4dd1-8ee9-26b19d7c2944)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/a98f8fbc-e513-4dce-92fa-a86cdb69d57c)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/75da1a7b-636c-4212-95cc-0daf33439a52)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/8bf23907-8322-4c09-840f-a96954544117)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/9cfb3809-34f0-4e4d-8508-8a26852b9e6c)
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![image](https://github.com/user-attachments/assets/f50c6cda-368c-4655-a0e2-52e5f3dedea9)
 
 
 #Sorting File content
