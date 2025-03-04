@@ -384,6 +384,8 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/a3c52e41-b1dd-4c3b-8090-a67417f0c119)
+
 
 cat < urllist.txt
 ```
@@ -400,17 +402,19 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/677a6bad-0ee9-4408-b427-adb1e50c4255)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![image](https://github.com/user-attachments/assets/f6b7929b-46ae-420a-a2d4-6c761d7c9da0)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/dedb6214-31ab-4f34-9f5e-e819c99b6490)
 
 
 mkdir backupdir
