@@ -520,13 +520,16 @@ echo $?
 bash: ./one: Permission denied
  
 echo $?
+
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/bae8910c-ba58-45d1-9656-8e74b351aac2)
+
 abcd
  
 echo $?
  ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/238d5443-c3dd-4a73-9313-7b6e6039196e)
 
  
 # mis-using string comparisons
