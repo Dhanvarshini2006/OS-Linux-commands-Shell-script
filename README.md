@@ -475,8 +475,13 @@ echo 'The $$ is ' $$
 ps
 ^d
  ```
-
 cat scriptest.sh 
+
+## OUTPUT
+![image](https://github.com/user-attachments/assets/a5617238-2e02-4d3f-82b6-d31dd2f419be)
+
+
+
 ```bash
 \#!/bin/sh
 echo “File name is $0 ”
@@ -496,13 +501,21 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/123859e7-4fe4-4a46-8c6a-9c4888c63e1a)
+
 
  
 ls file1
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/3e9987d7-de29-4d2b-a9cc-54d7b8e4b804)
+
+
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/user-attachments/assets/a7afe317-2dde-4d5b-b16a-4c5762879a01)
+
 ./one
 bash: ./one: Permission denied
  
