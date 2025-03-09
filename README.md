@@ -599,6 +599,9 @@ fi
 ./psswdperm.sh
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/4e35bc15-e5fe-4029-aeaa-f370d076d717)
+
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
