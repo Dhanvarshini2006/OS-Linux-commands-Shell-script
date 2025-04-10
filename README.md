@@ -647,6 +647,8 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0f1cab8b-65f6-4be8-9d18-4a01ad44dd03)
+
 
 
 
@@ -688,9 +690,13 @@ fi
 ```
 
 $ chmod 755 iftest.sh
- 
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/fe8cf2f6-9b3b-4788-bde3-749636be1051)
+
+ 
+
+
 
 # check if a file
 cat > ifnested.sh 
@@ -740,6 +746,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![Screenshot from 2025-04-10 20-52-03](https://github.com/user-attachments/assets/4ce33835-8af1-4dd8-bf7f-17804e7ac7b7)
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -784,6 +791,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/6c863a35-a7dc-4ae9-aed9-8d291116ce35)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -803,6 +812,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+![Screenshot from 2025-04-10 21-21-50](https://github.com/user-attachments/assets/34e47fc6-38ae-43ee-9ba3-6a565567d852)
+
  
 cat > whiletest
 ```bash
@@ -818,6 +830,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
+![Screenshot from 2025-04-10 21-30-15](https://github.com/user-attachments/assets/17b26096-57af-4ad8-847f-4079eb3d3d15)
+
  
  
 cat untiltest.sh 
@@ -831,6 +846,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+![Screenshot from 2025-04-10 21-28-55](https://github.com/user-attachments/assets/c58f6ccd-1775-4d0e-b4be-a0b3633a3d23)
+
  
  
  
@@ -845,6 +862,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
+![Screenshot from 2025-04-10 21-30-15](https://github.com/user-attachments/assets/65550d7f-e15f-4bc1-b5d3-e61ccd335832)
  
  
 cat forin2.sh 
@@ -858,20 +876,9 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
- 
+![image](https://github.com/user-attachments/assets/696b3e5d-8efa-475f-8583-170548696457)
+
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -882,40 +889,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
+ ![image](https://github.com/user-attachments/assets/0cf8eb87-b148-4286-bc72-dbf80bc2ac01)
 
-## OUTPUT
-cat forinfile.sh 
-```bash
-#!/bin/bash
-# reading values from a file
-file="cities"
-for state in `cat $file`
-do
-echo "Visit beautiful $file“
-done
-```
-$ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
-
-## OUTPUT
 
 
 cat forctype.sh 
@@ -930,6 +905,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/81ab1494-f0f9-4bd6-80b4-67f9d2b26868)
+
 
 cat forctype1.sh 
 ```bash
@@ -943,6 +920,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/3c3a45ba-0f02-4178-8ec6-9803b48c20ef)
 
 cat fornested1.sh 
 ```bash
@@ -1114,6 +1093,9 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+## OUTPUT
+![image](https://github.com/user-attachments/assets/196661b3-69e6-463e-87d8-de289c535efd)
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1127,8 +1109,13 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+## OUTPUT
+![image](https://github.com/user-attachments/assets/b6c400d4-be9a-48cd-af9a-0353007cbe0e)
+
 awk -f nc.awk data.dat
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/e6056a1b-886c-4138-acab-44ca082732a2)
+
  
 cat > palindrome.sh
 ```bash
@@ -1156,6 +1143,8 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/be35ce0e-1cb0-46e0-bcd8-13ce0634317e)
+
 
 
 # RESULT:
