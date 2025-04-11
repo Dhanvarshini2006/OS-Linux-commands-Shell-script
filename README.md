@@ -940,6 +940,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/user-attachments/assets/d8564abe-d192-45dd-b4bf-d8222c398eac)
 
  
 cat forbreak.sh 
